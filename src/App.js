@@ -12,9 +12,7 @@ export default function App() {
   return (
     <div className="Card py-5 ">
       <div className="container">
-        <div className="row row-cols-2 row-cols-sm-4 row-cols-md-3 g-3">
-          {CardComponent}
-        </div>
+        <div className="row row-cols-1 row-cols-md-3 g-3">{CardComponent}</div>
       </div>
     </div>
   );
